@@ -15,7 +15,6 @@ This repository contains the code and results of a comprehensive RNA-seq data an
 - **Scripts:** Contains R scripts used for data loading, quality control, normalization, and differential gene expression analysis.
 - **Data:** Includes the original "COUNT" data and metadata used in the analysis.
 - **Plots:** Features generated plots and visualizations to aid in the interpretation of DEGs.
-- **Results:** Contains summary reports and findings from the analysis.
 - **README:** This file provides an introduction to the project, explanations of the analysis steps, and contact information.
 
 ## Usage
