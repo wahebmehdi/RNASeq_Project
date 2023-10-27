@@ -45,7 +45,7 @@ all(colnames(count_data) == rownames(colData))
 
 
 #Creating a dds object for DESeqAnalysis
-dds = DESeqDataSetFromMatrix(colData = coldata, countData = count_data, design= ~ TRPC6 Inhibitor)
+dds = DESeqDataSetFromMatrix(colData = coldata, countData = count_data, design= ~ condition)
 
 
 #Pre-filtering 
@@ -116,7 +116,6 @@ PCAA + geom_text(aes(label = name), size = 2.5) + ggtitle('PCA Plot')
 
 
 #HeatMap
-
 sampleDists = dist(t(assay(rld)))
 
 library("RColorBrewer")
